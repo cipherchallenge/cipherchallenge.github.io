@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+Algorithms | Cipher Challenge Cryptography Edition
+</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+
+
+<meta name="generator" content="Hugo 0.145.0">
+
+
+<link rel="canonical" href="/categories/algorithms/" >
+  <link href="/categories/algorithms/index.xml" rel="alternate" type="application/rss+xml" title="" >
+  <link href="/categories/algorithms/index.xml" rel="feed" type="application/rss+xml" title="" >
+
+
+
+
+<link href="/css/style.min.5c1fa9bba2d0e854fe30b3d6316ab0114a2a5f25c9a98275badeadb66f2ec725.css" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+
+    <div class="flexWrapper">
+        <header class="headerWrapper">
+    <div class="header">
+        <div>
+            <a class="terminal" href="/">
+                <span>cipherchallenge@um6p.ma ~ $</span>
+            </a>
+        </div>
+        <input class="side-menu" type="checkbox" id="side-menu">
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="headerLinks">
+            <ul>
+                
+                <li>
+                    <a href="/about" title="" >
+                        ~/about</a>
+                </li>
+                
+                <li>
+                    <a href="/keynotes" title="" >
+                        ~/keynotes</a>
+                </li>
+                
+                <li>
+                    <a href="/challenges" title="" >
+                        ~/challenges</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+        <div class="content">
+            <main class="main">
+                
+
+<div>
+    <div class="listHeader">
+        <h1>Algorithms</h1>
+    </div>
+
+    
+
+    <div>
+        
+
+        <a class="postListLink" href="/challenges/multiplication-complexity/">
+            
+            <div class="postListItem" role="listitem">
+                <div class="postHeader">
+                    <span class="postTitle">Divide and conquer! 💪</span>
+                    
+                    <time class="postDate" datetime="2025-03-03">March 3, 2025</time>
+                </div>
+                <div class="postExcerpt">
+                    <p><figure><img src="/mul_complexity_hidden.png">
+</figure></p>
+                </div>
+            </div>
+        </a>
+
+
+        
+
+        <a class="postListLink" href="/segnellahc/multiplication-complexity/">
+            
+            <div class="postListItem" role="listitem">
+                <div class="postHeader">
+                    <span class="postTitle">Divide and conquer! 💪</span>
+                    
+                    <time class="postDate" datetime="2025-03-03">March 3, 2025</time>
+                </div>
+                <div class="postExcerpt">
+                    <p><p>The time complexity describes the amount of computer time it takes to run an algorithm. It is estimated by counting the number of elementary operations performed by the algorithm. Since an algorithm&rsquo;s running time may vary among different inputs of the same size, one commonly considers the worst-case time. Algorithmic complexities are classified according to the type of function appearing in the big O notation. Here are some examples:</p>
+<table>
+  <thead>
+      <tr>
+          <th><em>Name</em></th>
+          <th><em>Time complexity</em></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Constant time</td>
+          <td>$\mathcal{O}(1)       $</td>
+      </tr>
+      <tr>
+          <td>Logarithmic time</td>
+          <td>$\mathcal{O}(\log n)  $</td>
+      </tr>
+      <tr>
+          <td>Linear time</td>
+          <td>$\mathcal{O}(n)       $</td>
+      </tr>
+      <tr>
+          <td>Linearithmic time</td>
+          <td>$\mathcal{O}(n \log n)$</td>
+      </tr>
+      <tr>
+          <td>Quadratic time</td>
+          <td>$\mathcal{O}(n^2)     $</td>
+      </tr>
+      <tr>
+          <td>Polynomial time</td>
+          <td>$2^{\mathcal{O}(\log n)} = poly(n)$</td>
+      </tr>
+      <tr>
+          <td>Exponential time</td>
+          <td>$2^{poly(n)}$</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="multiplication-algorithms">Multiplication algorithms</h2>
+<h3 id="schoolbook-multiplication">Schoolbook multiplication</h3>
+<p>Consider this example $102 \times 257$:</p></p>
+                </div>
+            </div>
+        </a>
+
+
+        
+
+        <a class="postListLink" href="/challenges/scalar-multiplication-complexity/">
+            
+            <div class="postListItem" role="listitem">
+                <div class="postHeader">
+                    <span class="postTitle">One step at a time! 🪜</span>
+                    
+                    <time class="postDate" datetime="2025-03-02">March 2, 2025</time>
+                </div>
+                <div class="postExcerpt">
+                    <p><figure><img src="/scalar_mul.jpg">
+</figure></p>
+                </div>
+            </div>
+        </a>
+
+
+        
+
+        <a class="postListLink" href="/segnellahc/scalar-multiplication-complexity/">
+            
+            <div class="postListItem" role="listitem">
+                <div class="postHeader">
+                    <span class="postTitle">One step at a time! 🪜</span>
+                    
+                    <time class="postDate" datetime="2025-03-02">March 2, 2025</time>
+                </div>
+                <div class="postExcerpt">
+                    <p><h2 id="scalar-multiplication">Scalar multiplication</h2>
+<p>Let $\mathbb{G}$ be a commutative group under the addition law ($+$) and let $G
+\in \mathbb{G}$ be its generator.  The group has an order $p$. We define a
+scalar multiplication $k \cdot G$ as $\underbrace{G+&hellip;+G}_\text{$k$~times}$.</p>
+<ol>
+<li>Consider $105 \cdot G$. How many additions does it involve?</li>
+<li>Now consider the binary decomposition of $105 = 2^6 + 2^5 + 2^3 + 2^0$. It can be written as</li>
+</ol>
+<blockquote>
+<p>$105 = ((((((((((1 · 2 + 1) · 2) + 0) · 2) + 1) · 2) + 0) · 2) + 0) · 2) + 1$.
+Given that a doubling (multiplication by 2) has the same cost as an addition, how many additions $105 \cdot G$ involves?</p></p>
+                </div>
+            </div>
+        </a>
+
+
+        
+
+        <a class="postListLink" href="/challenges/primality-testing/">
+            
+            <div class="postListItem" role="listitem">
+                <div class="postHeader">
+                    <span class="postTitle">Witness or liar? 🤥</span>
+                    
+                    <time class="postDate" datetime="2025-02-28">February 28, 2025</time>
+                </div>
+                <div class="postExcerpt">
+                    <p><figure><img src="/primality_test.jpg">
+</figure></p>
+                </div>
+            </div>
+        </a>
+
+
+        
+
+        <a class="postListLink" href="/segnellahc/primality-testing/">
+            
+            <div class="postListItem" role="listitem">
+                <div class="postHeader">
+                    <span class="postTitle">Witness or liar? 🤥</span>
+                    
+                    <time class="postDate" datetime="2025-02-28">February 28, 2025</time>
+                </div>
+                <div class="postExcerpt">
+                    <p><p>Primes are of great theoretical and practical value in cryptography. A
+primality test is an algorithm for determining whether an input number is
+prime or not.</p>
+<h3 id="naive-but-deterministic">Naive but deterministic</h3>
+<p>The simplest primality test is trial division: given an input number,
+$n$, check whether it is divisible by any prime number between 2 and $\sqrt{n}$. If
+so, then $n$ is composite. Otherwise, it is prime.</p>
+<blockquote>
+<p><strong>The prime number theorem</strong>: the distribution of primes is $π(n) \sim n/\log(n)$
+where $π(n)$ is the prime-counting function (the number of primes less than or
+equal to $n$) and $\log(n)$ is the natural logarithm of $n$.</p></p>
+                </div>
+            </div>
+        </a>
+
+
+        
+    </div>
+</div>
+
+
+            </main>
+        </div>
+
+
+        <footer class="footer">
+    
+        <span>Ⓒ 2025 — Youssef El Housni</span>
+    
+</footer>
+    </div>
+
+</body>
+
+</html>

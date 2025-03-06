@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Challenges on </title>
+    <link>/challenges/</link>
+    <description>Recent content in Challenges on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</managingEditor>
+    <webMaster>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</webMaster>
+    <lastBuildDate>Mon, 03 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/challenges/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Divide and conquer! 💪</title>
+      <link>/challenges/multiplication-complexity/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</author>
+      <guid>/challenges/multiplication-complexity/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/mul_complexity_hidden.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>One step at a time! 🪜</title>
+      <link>/challenges/scalar-multiplication-complexity/</link>
+      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</author>
+      <guid>/challenges/scalar-multiplication-complexity/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/scalar_mul.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Careful with randomness! 🚨</title>
+      <link>/challenges/signature-failure/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</author>
+      <guid>/challenges/signature-failure/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/signature.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Witness or liar? 🤥</title>
+      <link>/challenges/primality-testing/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</author>
+      <guid>/challenges/primality-testing/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/primality_test.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Sometimes answers are hidden in plain sight! 🌅</title>
+      <link>/challenges/steganography/</link>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</author>
+      <guid>/challenges/steganography/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/steganography_hidden.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+  </channel>
+</rss>
