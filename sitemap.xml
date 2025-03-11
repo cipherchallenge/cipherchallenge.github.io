@@ -109,9 +109,19 @@
   </url><url>
     <loc>/about/</loc>
   </url><url>
+    <loc>/tags/blockchain/</loc>
+  </url><url>
     <loc>/tags/cryptography/</loc>
   </url><url>
-    <loc>/keynotes/</loc>
+    <loc>/tags/ownership/</loc>
+  </url><url>
+    <loc>/poap/</loc>
+  </url><url>
+    <loc>/tags/proof-of-attendance/</loc>
+  </url><url>
+    <loc>/talks/</loc>
+  </url><url>
+    <loc>/tags/tokenization/</loc>
   </url><url>
     <loc>/tags/um6p/</loc>
   </url>
