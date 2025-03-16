@@ -3,20 +3,33 @@
 
 <head>
     <title>
-Constructions | Cipher Challenge 2025 Cryptography Edition
+Mashi 3la Raibi, 3la Jamila! 💓 | Cipher Challenge 2025 Cryptography Edition
 </title>
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js"></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false}
+            ]
+        });
+    });
+</script>
 
 <meta name="generator" content="Hugo 0.145.0">
 
 
-<link rel="canonical" href="/categories/constructions/" >
-  <link href="/categories/constructions/index.xml" rel="alternate" type="application/rss+xml" title="" >
-  <link href="/categories/constructions/index.xml" rel="feed" type="application/rss+xml" title="" >
+<link rel="canonical" href="/segnellahc/polynomial-interpolation/" >
 
 
 
@@ -72,88 +85,39 @@ Constructions | Cipher Challenge 2025 Cryptography Edition
         <div class="content">
             <main class="main">
                 
-
-<div>
-    <div class="listHeader">
-        <h1>Constructions</h1>
-    </div>
-
+<div class="postWrapper">
+    <h1>Mashi 3la Raibi, 3la Jamila! 💓</h1>
     
-
+    
+    <section class="postMetadata">
+        <dl>
+            
+                
+<dt>tags</dt>
+<dd><span></span>
+    <a href="/tags/polynomials/">#Polynomials</a><span></span>
+    <a href="/tags/interpolation/">#Interpolation</a><span></span>
+    <a href="/tags/secret-sharing/">#Secret Sharing</a><span></span>
+    <a href="/tags/multiparty-computation/">#Multiparty Computation</a></dd>
+            
+            
+            
+                
+<dt>categories</dt>
+<dd><span></span>
+    <a href="/categories/constructions/">Constructions</a><span></span>
+    <a href="/categories/algorithms/">Algorithms</a></dd>
+            
+            
+            
+                <dt>reading time</dt>
+                <dd>2 minutes</dd>
+            
+        </dl>
+    </section>
+    
     <div>
-        
-
-        <a class="postListLink" href="/challenges/signature-failure/">
-            
-            <div class="postListItem" role="listitem">
-                <div class="postHeader">
-                    <span class="postTitle">Careful with randomness! 🚨</span>
-                    
-                    <time class="postDate" datetime="2025-03-01">March 1, 2025</time>
-                </div>
-                <div class="postExcerpt">
-                    <p><figure><img src="/signature.jpg">
-</figure></p>
-                </div>
-            </div>
-        </a>
-
-
-        
-
-        <a class="postListLink" href="/segnellahc/signature-failure/">
-            
-            <div class="postListItem" role="listitem">
-                <div class="postHeader">
-                    <span class="postTitle">Careful with randomness! 🚨</span>
-                    
-                    <time class="postDate" datetime="2025-03-01">March 1, 2025</time>
-                </div>
-                <div class="postExcerpt">
-                    <p><p>Let $\mathbb{G}$ be a commutative group under the addition law ($+$) and let $G
-\in \mathbb{G}$ be its generator.  The group has an order $p$. We define a
-scalar multiplication $k \cdot G$ as $\underbrace{G+&hellip;+G}_\text{$k$~times}$.</p>
-<p>Now assume that given an element $Q \in \mathbb{G}$ it is computationally
-unfeasible to find $k$ such that $Q = k \cdot G$. We have seen in a different
-challenge that it is easy to go from $G$ to $k \cdot G$ but now we are assuming
-that it is hard to go from $k \cdot G$ to $G$. This is called a one-way
-function. In this challenge, we will build a signature scheme and an encryption
-scheme based on this function.</p></p>
-                </div>
-            </div>
-        </a>
-
-
-        
-
-        <a class="postListLink" href="/challenges/polynomial-interpolation/">
-            
-            <div class="postListItem" role="listitem">
-                <div class="postHeader">
-                    <span class="postTitle">Mashi 3la Raibi, 3la Jamila! 💓</span>
-                    
-                    <time class="postDate" datetime="2025-02-27">February 27, 2025</time>
-                </div>
-                <div class="postExcerpt">
-                    <p><figure><img src="/raibi.png">
-</figure></p>
-                </div>
-            </div>
-        </a>
-
-
-        
-
-        <a class="postListLink" href="/segnellahc/polynomial-interpolation/">
-            
-            <div class="postListItem" role="listitem">
-                <div class="postHeader">
-                    <span class="postTitle">Mashi 3la Raibi, 3la Jamila! 💓</span>
-                    
-                    <time class="postDate" datetime="2025-02-27">February 27, 2025</time>
-                </div>
-                <div class="postExcerpt">
-                    <p><p>Polynomials are functions of the form:
+        <p>Polynomials are functions of the form:
 $$ f(x) = a_0 + a_1 x + \dots + a_n x_n $$
 where $n$ is any non-negative integer and $a_0,\dots,a_n$ any fixed numbers
 with $a_n \ne 0$. We call:</p>
@@ -183,16 +147,22 @@ sworn to keep it a secret. To prevent these individuals from sharing the secret
 and to ensure it is never lost, we are going to construct a scheme that allows
 the secret to be shared among a group of people in such a way that the secret
 cannot be revealed unless a minimum number of the group&rsquo;s members act together
-to pool their knowledge.</p></p>
-                </div>
-            </div>
-        </a>
+to pool their knowledge.</p>
+<ol start="6">
+<li>Let $s$ be the secret recipe. We construct $f(x)$ a polynomial of degree $t$
+such that $f(0)=s$ and $f(i)=a_i$ for $1 \leq i \leq t$, where $a_i$ are
+random numbers. We compute the points $y_1=f(1), y_2=f(2), \dots, y_n=f(n)$
+and distribute them among $n$ people. Can you explain how the secret can be
+reconstructed?</li>
+<li>Let take the following example: $n=6$, $t=3$ and $y_1=14$, $y_2=2$,
+$y_3=25$ $y_4=3$, $y_5=44$ and $y_6=6$. What is the secret $s$?</li>
+</ol>
+<figure><img src="/raibi.png">
+</figure>
 
 
-        
     </div>
 </div>
-
 
             </main>
         </div>
