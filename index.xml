@@ -15,7 +15,7 @@
       <link>/challenges/multiplication-complexity/</link>
       <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
       <guid>/challenges/multiplication-complexity/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;/mul_complexity_hidden.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;figure&gt;&lt;img src=&#34;/hidden_karatsuba.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>Divide and conquer! 💪</title>
@@ -29,7 +29,7 @@
       <link>/challenges/scalar-multiplication-complexity/</link>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
       <guid>/challenges/scalar-multiplication-complexity/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;/scalar_mul.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;figure&gt;&lt;img src=&#34;/hidden_scalarmul.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>One step at a time! 🪜</title>
@@ -43,7 +43,7 @@
       <link>/challenges/signature-failure/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
       <guid>/challenges/signature-failure/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;/signature.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;figure&gt;&lt;img src=&#34;/hidden_signature.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>Careful with randomness! 🚨</title>
@@ -57,7 +57,7 @@
       <link>/challenges/primality-testing/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
       <guid>/challenges/primality-testing/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;/primality_test.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;figure&gt;&lt;img src=&#34;/hidden_primality.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>Witness or liar? 🤥</title>
@@ -71,7 +71,7 @@
       <link>/challenges/polynomial-interpolation/</link>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
       <guid>/challenges/polynomial-interpolation/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;/raibi.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;figure&gt;&lt;img src=&#34;/hidden_interpolation.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>Mashi 3la Raibi, 3la Jamila! 💓</title>
@@ -85,14 +85,14 @@
       <link>/challenges/steganography/</link>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
       <guid>/challenges/steganography/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;/steganography_hidden.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;figure&gt;&lt;img src=&#34;/hidden_steganography.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>Sometimes answers are hidden in plain sight! 🌅</title>
       <link>/segnellahc/steganography/</link>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
       <guid>/segnellahc/steganography/</guid>
-      <description>&lt;ol&gt;&#xA;&lt;li&gt;Answers to all the challenges are hidden in the corresponding images. If you reverse-engineer the code in &lt;a href=&#34;https://github.com/cipherchallenge/steganography&#34;&gt;https://github.com/cipherchallenge/steganography&lt;/a&gt; you&amp;rsquo;ll find them!&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;em&gt;Hint: the space is full of pixels and a pixel does not need all the bits! Some are less significant&lt;/em&gt; 😉&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;/steganography_hidden.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;Answers to all the challenges are hidden in the corresponding images. If you reverse-engineer the code in &lt;a href=&#34;https://github.com/cipherchallenge/steganography&#34;&gt;https://github.com/cipherchallenge/steganography&lt;/a&gt; you&amp;rsquo;ll find them!&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;em&gt;Hint: the space is full of pixels and a pixel does not need all the bits! Some are less significant&lt;/em&gt; 😉&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;/hidden_steganography.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>About</title>

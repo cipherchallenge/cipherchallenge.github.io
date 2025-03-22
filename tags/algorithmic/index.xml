@@ -15,7 +15,7 @@
       <link>/challenges/multiplication-complexity/</link>
       <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
       <guid>/challenges/multiplication-complexity/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;/mul_complexity_hidden.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;figure&gt;&lt;img src=&#34;/hidden_karatsuba.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>Divide and conquer! 💪</title>
@@ -29,7 +29,7 @@
       <link>/challenges/scalar-multiplication-complexity/</link>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
       <guid>/challenges/scalar-multiplication-complexity/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;/scalar_mul.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;figure&gt;&lt;img src=&#34;/hidden_scalarmul.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>One step at a time! 🪜</title>
