@@ -8,8 +8,15 @@
     <language>en</language>
     <managingEditor>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</managingEditor>
     <webMaster>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</webMaster>
-    <lastBuildDate>Mon, 03 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/challenges/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Miscellaneous 🧮</title>
+      <link>/challenges/miscellaneous/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/challenges/miscellaneous/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/misc.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
     <item>
       <title>Divide and conquer! 💪</title>
       <link>/challenges/multiplication-complexity/</link>

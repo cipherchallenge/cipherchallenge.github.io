@@ -3,21 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2025-03-03T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/challenges/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/segnellahc/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/commitments/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/error-propagation/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/index/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/introduction/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/miscellaneous/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/challenges/miscellaneous/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/segnellahc/miscellaneous/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/probability/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/secret-sharing/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/algorithmic/</loc>
     <lastmod>2025-03-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/algorithms/</loc>
-    <lastmod>2025-03-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2025-03-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/challenges/</loc>
-    <lastmod>2025-03-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/segnellahc/</loc>
     <lastmod>2025-03-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/complexity-theory/</loc>
@@ -29,13 +59,7 @@
     <loc>/segnellahc/multiplication-complexity/</loc>
     <lastmod>2025-03-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/index/</loc>
-    <lastmod>2025-03-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/multiplication/</loc>
-    <lastmod>2025-03-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2025-03-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/group-theory/</loc>
@@ -83,9 +107,6 @@
     <loc>/tags/prime-numbers/</loc>
     <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/probability/</loc>
-    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/challenges/primality-testing/</loc>
     <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -111,9 +132,6 @@
     <lastmod>2025-02-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/polynomials/</loc>
-    <lastmod>2025-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/secret-sharing/</loc>
     <lastmod>2025-02-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/challenges/steganography/</loc>

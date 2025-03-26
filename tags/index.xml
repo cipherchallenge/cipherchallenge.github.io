@@ -8,20 +8,48 @@
     <language>en</language>
     <managingEditor>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</managingEditor>
     <webMaster>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</webMaster>
-    <lastBuildDate>Mon, 03 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Algorithmic</title>
-      <link>/tags/algorithmic/</link>
-      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
-      <guid>/tags/algorithmic/</guid>
+      <title>Commitments</title>
+      <link>/tags/commitments/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/commitments/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Error Propagation</title>
+      <link>/tags/error-propagation/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/error-propagation/</guid>
       <description></description>
     </item>
     <item>
       <title>Index</title>
       <link>/tags/index/</link>
-      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
       <guid>/tags/index/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Probability</title>
+      <link>/tags/probability/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/probability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Secret Sharing</title>
+      <link>/tags/secret-sharing/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/secret-sharing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algorithmic</title>
+      <link>/tags/algorithmic/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/algorithmic/</guid>
       <description></description>
     </item>
     <item>
@@ -81,13 +109,6 @@
       <description></description>
     </item>
     <item>
-      <title>Probability</title>
-      <link>/tags/probability/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
-      <guid>/tags/probability/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Interpolation</title>
       <link>/tags/interpolation/</link>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
@@ -106,13 +127,6 @@
       <link>/tags/polynomials/</link>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
       <guid>/tags/polynomials/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Secret Sharing</title>
-      <link>/tags/secret-sharing/</link>
-      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
-      <guid>/tags/secret-sharing/</guid>
       <description></description>
     </item>
     <item>
