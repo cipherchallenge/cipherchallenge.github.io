@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Constructions on </title>
+    <link>/categories/constructions/</link>
+    <description>Recent content in Constructions on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</managingEditor>
+    <webMaster>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</webMaster>
+    <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/constructions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Careful with randomness! 🚨</title>
+      <link>/challenges/signature-failure/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/challenges/signature-failure/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/hidden_signature.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Mashi 3la Raibi, 3la Jamila! 💓</title>
+      <link>/challenges/polynomial-interpolation/</link>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/challenges/polynomial-interpolation/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/hidden_interpolation.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+  </channel>
+</rss>

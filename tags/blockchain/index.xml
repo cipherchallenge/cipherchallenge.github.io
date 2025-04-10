@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blockchain on </title>
+    <link>/tags/blockchain/</link>
+    <description>Recent content in Blockchain on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</managingEditor>
+    <webMaster>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</webMaster>
+    <atom:link href="/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>POAP</title>
+      <link>/poap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/poap/</guid>
+      <description>&lt;h2 id=&#34;what-is-poap&#34;&gt;What is POAP?&lt;/h2&gt;&#xA;&lt;p&gt;The Proof of Attendance Protocol (POAP) turns precious moments into&#xA;collectibles (NFT).  Using blockchain technology, POAP tokenizes your memories,&#xA;so they can last forever and be truly yours.&lt;/p&gt;&#xA;&lt;p&gt;You can reserve a POAP using an email address. If reserved with an email, it’s&#xA;linked to your email, and you can mint it to your Web3 wallet later, though&#xA;it’s not required immediately. While you can reserve and manage POAPs with just&#xA;your email, using a crypto wallet adds ownership and flexibility. You can mint&#xA;your POAP to the blockchain at any time for permanent recording.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

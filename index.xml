@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>/</link>
+    <description>Recent content on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</managingEditor>
+    <webMaster>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</webMaster>
+    <lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Miscellaneous 🧮</title>
+      <link>/challenges/miscellaneous/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/challenges/miscellaneous/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/misc.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Divide and conquer! 💪</title>
+      <link>/challenges/multiplication-complexity/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/challenges/multiplication-complexity/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/hidden_karatsuba.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>One step at a time! 🪜</title>
+      <link>/challenges/scalar-multiplication-complexity/</link>
+      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/challenges/scalar-multiplication-complexity/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/hidden_scalarmul.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Careful with randomness! 🚨</title>
+      <link>/challenges/signature-failure/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/challenges/signature-failure/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/hidden_signature.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Witness or liar? 🤥</title>
+      <link>/challenges/primality-testing/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/challenges/primality-testing/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/hidden_primality.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Mashi 3la Raibi, 3la Jamila! 💓</title>
+      <link>/challenges/polynomial-interpolation/</link>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/challenges/polynomial-interpolation/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/hidden_interpolation.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Sometimes answers are hidden in plain sight! 🌅</title>
+      <link>/challenges/steganography/</link>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/challenges/steganography/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/hidden_steganography.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/about/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/cipher_challenge_official.png&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;call-for-applications-cipher-challenge-2025---cryptography-edition&#34;&gt;[📢✨CALL FOR APPLICATIONS] Cipher Challenge 2025 - Cryptography Edition&lt;/h2&gt;&#xA;&lt;p&gt;The UM6P College of Computing is pleased to invite students from across Morocco to take part in the Cipher Challenge 2025, a competition designed to test and celebrate cryptographic skills. Hosted on the UM6P Rabat campus, this event brings together the brightest minds to engage in an exciting intellectual challenge, with prizes rewarding outstanding performances.&lt;/p&gt;&#xA;&lt;h3 id=&#34;-event-details&#34;&gt;📌 EVENT DETAILS&lt;/h3&gt;&#xA;&lt;p&gt;📅 Date: Saturday, April 12, and Sunday, April 13, 2025&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>POAP</title>
+      <link>/poap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/poap/</guid>
+      <description>&lt;h2 id=&#34;what-is-poap&#34;&gt;What is POAP?&lt;/h2&gt;&#xA;&lt;p&gt;The Proof of Attendance Protocol (POAP) turns precious moments into&#xA;collectibles (NFT).  Using blockchain technology, POAP tokenizes your memories,&#xA;so they can last forever and be truly yours.&lt;/p&gt;&#xA;&lt;p&gt;You can reserve a POAP using an email address. If reserved with an email, it’s&#xA;linked to your email, and you can mint it to your Web3 wallet later, though&#xA;it’s not required immediately. While you can reserve and manage POAPs with just&#xA;your email, using a crypto wallet adds ownership and flexibility. You can mint&#xA;your POAP to the blockchain at any time for permanent recording.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Talks</title>
+      <link>/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/talks/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h4 id=&#34;--modern-applications-of-cryptography-by-dr-youssef-el-housni&#34;&gt;- &lt;a href=&#34;&#34;&gt;Modern Applications of Cryptography&lt;/a&gt; by &lt;a href=&#34;https://yelhousni.github.io&#34;&gt;Dr. Youssef El Housni&lt;/a&gt;.&lt;/h4&gt;&#xA;&lt;p&gt;Join us for an enlightening keynote presentation that delves into the&#xA;fascinating world of cryptography and its evolution from classical techniques&#xA;to modern applications. This talk will provide a comprehensive overview of how&#xA;cryptography has been traditionally used for encryption and digital signatures,&#xA;and will then explore groundbreaking advancements that are shaping the future&#xA;of secure communication and data protection.&lt;/p&gt;&#xA;&lt;p&gt;We will begin by revisiting the foundational principles of cryptography,&#xA;highlighting its critical role in safeguarding information. From there, we will&#xA;transition to discussing some of the most exciting and innovative applications&#xA;in the field today, including:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

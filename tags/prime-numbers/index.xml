@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prime Numbers on </title>
+    <link>/tags/prime-numbers/</link>
+    <description>Recent content in Prime Numbers on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</managingEditor>
+    <webMaster>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</webMaster>
+    <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/prime-numbers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Witness or liar? 🤥</title>
+      <link>/challenges/primality-testing/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/challenges/primality-testing/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/hidden_primality.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+  </channel>
+</rss>

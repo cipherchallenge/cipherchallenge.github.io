@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cryptography on </title>
+    <link>/tags/cryptography/</link>
+    <description>Recent content in Cryptography on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</managingEditor>
+    <webMaster>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</webMaster>
+    <atom:link href="/tags/cryptography/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/about/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/cipher_challenge_official.png&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;call-for-applications-cipher-challenge-2025---cryptography-edition&#34;&gt;[📢✨CALL FOR APPLICATIONS] Cipher Challenge 2025 - Cryptography Edition&lt;/h2&gt;&#xA;&lt;p&gt;The UM6P College of Computing is pleased to invite students from across Morocco to take part in the Cipher Challenge 2025, a competition designed to test and celebrate cryptographic skills. Hosted on the UM6P Rabat campus, this event brings together the brightest minds to engage in an exciting intellectual challenge, with prizes rewarding outstanding performances.&lt;/p&gt;&#xA;&lt;h3 id=&#34;-event-details&#34;&gt;📌 EVENT DETAILS&lt;/h3&gt;&#xA;&lt;p&gt;📅 Date: Saturday, April 12, and Sunday, April 13, 2025&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Talks</title>
+      <link>/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/talks/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h4 id=&#34;--modern-applications-of-cryptography-by-dr-youssef-el-housni&#34;&gt;- &lt;a href=&#34;&#34;&gt;Modern Applications of Cryptography&lt;/a&gt; by &lt;a href=&#34;https://yelhousni.github.io&#34;&gt;Dr. Youssef El Housni&lt;/a&gt;.&lt;/h4&gt;&#xA;&lt;p&gt;Join us for an enlightening keynote presentation that delves into the&#xA;fascinating world of cryptography and its evolution from classical techniques&#xA;to modern applications. This talk will provide a comprehensive overview of how&#xA;cryptography has been traditionally used for encryption and digital signatures,&#xA;and will then explore groundbreaking advancements that are shaping the future&#xA;of secure communication and data protection.&lt;/p&gt;&#xA;&lt;p&gt;We will begin by revisiting the foundational principles of cryptography,&#xA;highlighting its critical role in safeguarding information. From there, we will&#xA;transition to discussing some of the most exciting and innovative applications&#xA;in the field today, including:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

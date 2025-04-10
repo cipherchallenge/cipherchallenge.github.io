@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on </title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</managingEditor>
+    <webMaster>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</webMaster>
+    <lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Commitments</title>
+      <link>/tags/commitments/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/commitments/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Error Propagation</title>
+      <link>/tags/error-propagation/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/error-propagation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Index</title>
+      <link>/tags/index/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/index/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Probability</title>
+      <link>/tags/probability/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/probability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Secret Sharing</title>
+      <link>/tags/secret-sharing/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/secret-sharing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algorithmic</title>
+      <link>/tags/algorithmic/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/algorithmic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multiplication</title>
+      <link>/tags/multiplication/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/multiplication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Group Theory</title>
+      <link>/tags/group-theory/</link>
+      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/group-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scalar Multiplication</title>
+      <link>/tags/scalar-multiplication/</link>
+      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/scalar-multiplication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Encryption</title>
+      <link>/tags/encryption/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/encryption/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Randomness</title>
+      <link>/tags/randomness/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/randomness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Signature</title>
+      <link>/tags/signature/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/signature/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arithmetic</title>
+      <link>/tags/arithmetic/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/arithmetic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prime Numbers</title>
+      <link>/tags/prime-numbers/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/prime-numbers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Interpolation</title>
+      <link>/tags/interpolation/</link>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/interpolation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multiparty Computation</title>
+      <link>/tags/multiparty-computation/</link>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/multiparty-computation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Polynomials</title>
+      <link>/tags/polynomials/</link>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/polynomials/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Steganography</title>
+      <link>/tags/steganography/</link>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/steganography/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blockchain</title>
+      <link>/tags/blockchain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/blockchain/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cryptography</title>
+      <link>/tags/cryptography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/cryptography/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ownership</title>
+      <link>/tags/ownership/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/ownership/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proof of Attendance</title>
+      <link>/tags/proof-of-attendance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/proof-of-attendance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tokenization</title>
+      <link>/tags/tokenization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/tokenization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UM6P</title>
+      <link>/tags/um6p/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
+      <guid>/tags/um6p/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
