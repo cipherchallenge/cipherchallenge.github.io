@@ -15,14 +15,14 @@
       <link>/challenges/miscellaneous/</link>
       <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
       <guid>/challenges/miscellaneous/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;/misc.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;&#xA;&lt;p&gt;Consider the following:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You have a random variable $X$, which is just a number (or a set of numbers)&#xA;that is randomly chosen. In this case, $X$ is a string of n bits (where each bit&#xA;is either 0 or 1), and each bit is chosen completely at random.&lt;/li&gt;&#xA;&lt;li&gt;You also have another random variable $Y$, which is also an n-bit string.&#xA;However, $Y$ doesn’t have to be random in the same way as $X$—it can follow any&#xA;pattern. But $X$ and $Y$ are independent, meaning knowing $Y$ doesn’t tell us&#xA;anything about $X$.&lt;/li&gt;&#xA;&lt;li&gt;Now, we define a new random variable $Z$ by taking $X$ and $Y$ and combining them&#xA;using something called the ”bitwise XOR operation” (written as $\oplus$). XOR works&#xA;like this for each bit:&#xA;– If the two bits are the same (both 0 or both 1), the result is 0.&#xA;– If the two bits are different (one is 0 and the other is 1), the result&#xA;is 1.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;So, assuming we define $Z = X \oplus Y$, we apply this rule to each bit in the string&#xA;separately.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Witness or liar? 🤥</title>
       <link>/challenges/primality-testing/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
       <guid>/challenges/primality-testing/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;/hidden_primality.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;p&gt;Primes are of great theoretical and practical value in cryptography. A&#xA;primality test is an algorithm for determining whether an input number is&#xA;prime or not.&lt;/p&gt;&#xA;&lt;h3 id=&#34;naive-but-deterministic&#34;&gt;Naive but deterministic&lt;/h3&gt;&#xA;&lt;p&gt;The simplest primality test is trial division: given an input number,&#xA;$n$, check whether it is divisible by any prime number between 2 and $\sqrt{n}$. If&#xA;so, then $n$ is composite. Otherwise, it is prime.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;The prime number theorem&lt;/strong&gt;: the distribution of primes is $π(n) \sim n/\log(n)$&#xA;where $π(n)$ is the prime-counting function (the number of primes less than or&#xA;equal to $n$) and $\log(n)$ is the natural logarithm of $n$.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

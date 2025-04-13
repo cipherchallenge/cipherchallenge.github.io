@@ -111,13 +111,153 @@ Divide and conquer! 💪 | Cipher Challenge 2025 Cryptography Edition
             
             
                 <dt>reading time</dt>
-                <dd>0 minutes</dd>
+                <dd>2 minutes</dd>
             
         </dl>
     </section>
     
     <div>
-        <figure><img src="/hidden_karatsuba.png">
+        <p>The time complexity describes the amount of computer time it takes to run an algorithm. It is estimated by counting the number of elementary operations performed by the algorithm. Since an algorithm&rsquo;s running time may vary among different inputs of the same size, one commonly considers the worst-case time. Algorithmic complexities are classified according to the type of function appearing in the big O notation. Here are some examples:</p>
+<table>
+  <thead>
+      <tr>
+          <th><em>Name</em></th>
+          <th><em>Time complexity</em></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Constant time</td>
+          <td>$\mathcal{O}(1)       $</td>
+      </tr>
+      <tr>
+          <td>Logarithmic time</td>
+          <td>$\mathcal{O}(\log n)  $</td>
+      </tr>
+      <tr>
+          <td>Linear time</td>
+          <td>$\mathcal{O}(n)       $</td>
+      </tr>
+      <tr>
+          <td>Linearithmic time</td>
+          <td>$\mathcal{O}(n \log n)$</td>
+      </tr>
+      <tr>
+          <td>Quadratic time</td>
+          <td>$\mathcal{O}(n^2)     $</td>
+      </tr>
+      <tr>
+          <td>Polynomial time</td>
+          <td>$2^{\mathcal{O}(\log n)} = poly(n)$</td>
+      </tr>
+      <tr>
+          <td>Exponential time</td>
+          <td>$2^{poly(n)}$</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="multiplication-algorithms">Multiplication algorithms</h2>
+<h3 id="schoolbook-multiplication">Schoolbook multiplication</h3>
+<p>Consider this example $102 \times 257$:</p>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th>1</th>
+          <th>0</th>
+          <th>2</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>$\times$</td>
+          <td></td>
+          <td></td>
+          <td>2</td>
+          <td>5</td>
+          <td>7</td>
+      </tr>
+      <tr>
+          <td>&mdash;&mdash;&ndash;</td>
+          <td>&mdash;-</td>
+          <td>&mdash;-</td>
+          <td>&mdash;-</td>
+          <td>&mdash;-</td>
+          <td>&mdash;-</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>7</td>
+          <td>1</td>
+          <td>4</td>
+      </tr>
+      <tr>
+          <td>$+$</td>
+          <td></td>
+          <td>5</td>
+          <td>1</td>
+          <td>0</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>$+$</td>
+          <td>2</td>
+          <td>0</td>
+          <td>4</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>&mdash;&mdash;&ndash;</td>
+          <td>&mdash;-</td>
+          <td>&mdash;-</td>
+          <td>&mdash;-</td>
+          <td>&mdash;-</td>
+          <td>&mdash;-</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>2</td>
+          <td>6</td>
+          <td>2</td>
+          <td>1</td>
+          <td>4</td>
+      </tr>
+  </tbody>
+</table>
+<ol>
+<li>
+<p>Without worrying about additions, how many digit multiplications we need?</p>
+</li>
+<li>
+<p>Suppose we have two n-digit numbers and wish to multiply them. What is the (worst-case) time complexity of this operation?</p>
+</li>
+</ol>
+<h2 id="divide-and-conquer-multiplication">Divide-and-conquer multiplication</h2>
+<p>Can we do any better?</p>
+<h4 id="2-digit-numbers">2-digit numbers</h4>
+<p>Consider two 2-digit numbers $X$ and $Y$. Their base-10 representation is $X = 10x_1 + x_0$ and $Y = 10y_1 + y_0$. Their product is $X \cdot Y = (10x_1 + x_0)(10y_1 + y_0) = 100x_1y_1 + 10(x_1y_0+x_0y_1) + x_0y_0$.</p>
+<ol start="3">
+<li>How many multiplications this product involves?</li>
+<li>Can you re-write the middle term $x_1y_0 + x_0y_1$ to re-use $x_0y_0$ and $x_1y_1$? How many multiplications the product involves now?</li>
+</ol>
+<h3 id="4-digit-numbers">4-digit numbers</h3>
+<p>Now consider two 4-digit numbers $X$ and $Y$. We can write them as $X = 100x_1 + x_0$ and $Y = 100y_1 + y_0$.</p>
+<ol start="5">
+<li>Can you re-do the same optimization as for 2-digits?</li>
+<li>Multiply 2345 and 6789 following this optimization.</li>
+</ol>
+<h4 id="n-digit-numbers">n-digit numbers</h4>
+<p>In general we can write two n-digit numbers as $X = 10^{n/2}x_0 + x_1$ and $Y = 10^{n/2}y_0 + y_1$.</p>
+<ol start="7">
+<li>Can you derive an algorithm than involves less digit multiplications than the schoolbook method?</li>
+<li>What is the time complexity of your algorithm?</li>
+</ol>
+<figure><img src="/hidden_karatsuba.png">
 </figure>
 
 

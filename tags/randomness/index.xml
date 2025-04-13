@@ -15,7 +15,7 @@
       <link>/challenges/signature-failure/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
       <guid>/challenges/signature-failure/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;/hidden_signature.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;p&gt;Let $\mathbb{G}$ be a commutative group under the addition law ($+$) and let $G&#xA;\in \mathbb{G}$ be its generator.  The group has an order $p$. We define a&#xA;scalar multiplication $k \cdot G$ as $\underbrace{G+&amp;hellip;+G}_\text{$k$~times}$.&lt;/p&gt;&#xA;&lt;p&gt;Now assume that given an element $Q \in \mathbb{G}$ it is computationally&#xA;unfeasible to find $k$ such that $Q = k \cdot G$. We have seen in a different&#xA;challenge that it is easy to go from $G$ to $k \cdot G$ but now we are assuming&#xA;that it is hard to go from $k \cdot G$ to $G$. This is called a one-way&#xA;function. In this challenge, we will build a signature scheme and an encryption&#xA;scheme based on this function.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

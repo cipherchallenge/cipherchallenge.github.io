@@ -92,8 +92,15 @@ Real-World | Cipher Challenge 2025 Cryptography Edition
                     <time class="postDate" datetime="2025-03-01">March 1, 2025</time>
                 </div>
                 <div class="postExcerpt">
-                    <p><figure><img src="/hidden_signature.png">
-</figure></p>
+                    <p><p>Let $\mathbb{G}$ be a commutative group under the addition law ($+$) and let $G
+\in \mathbb{G}$ be its generator.  The group has an order $p$. We define a
+scalar multiplication $k \cdot G$ as $\underbrace{G+&hellip;+G}_\text{$k$~times}$.</p>
+<p>Now assume that given an element $Q \in \mathbb{G}$ it is computationally
+unfeasible to find $k$ such that $Q = k \cdot G$. We have seen in a different
+challenge that it is easy to go from $G$ to $k \cdot G$ but now we are assuming
+that it is hard to go from $k \cdot G$ to $G$. This is called a one-way
+function. In this challenge, we will build a signature scheme and an encryption
+scheme based on this function.</p></p>
                 </div>
             </div>
         </a>

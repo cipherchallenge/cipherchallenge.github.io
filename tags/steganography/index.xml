@@ -15,7 +15,7 @@
       <link>/challenges/steganography/</link>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
       <guid>/challenges/steganography/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;/hidden_steganography.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;Answers to all the challenges are hidden in the corresponding images. If you reverse-engineer the code in &lt;a href=&#34;https://github.com/cipherchallenge/steganography&#34;&gt;https://github.com/cipherchallenge/steganography&lt;/a&gt; you&amp;rsquo;ll find them!&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;em&gt;Hint: the space is full of pixels and a pixel does not need all the bits! Some are less significant&lt;/em&gt; 😉&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;/hidden_steganography.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
   </channel>
 </rss>

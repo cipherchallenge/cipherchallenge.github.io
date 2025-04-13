@@ -15,7 +15,7 @@
       <link>/challenges/scalar-multiplication-complexity/</link>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge 2025 Cryptography Edition)</author>
       <guid>/challenges/scalar-multiplication-complexity/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;/hidden_scalarmul.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;h2 id=&#34;scalar-multiplication&#34;&gt;Scalar multiplication&lt;/h2&gt;&#xA;&lt;p&gt;Let $\mathbb{G}$ be a commutative group under the addition law ($+$) and let $G&#xA;\in \mathbb{G}$ be its generator.  The group has an order $p$. We define a&#xA;scalar multiplication $k \cdot G$ as $\underbrace{G+&amp;hellip;+G}_\text{$k$~times}$.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Consider $105 \cdot G$. How many additions does it involve?&lt;/li&gt;&#xA;&lt;li&gt;Now consider the binary decomposition of $105 = 2^6 + 2^5 + 2^3 + 2^0$. It can be written as&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;$105 = ((((((((((1 · 2 + 1) · 2) + 0) · 2) + 1) · 2) + 0) · 2) + 0) · 2) + 1$.&#xA;Given that a doubling (multiplication by 2) has the same cost as an addition, how many additions $105 \cdot G$ involves?&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

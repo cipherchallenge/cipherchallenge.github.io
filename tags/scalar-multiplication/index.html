@@ -92,8 +92,17 @@ Scalar Multiplication | Cipher Challenge 2025 Cryptography Edition
                     <time class="postDate" datetime="2025-03-02">March 2, 2025</time>
                 </div>
                 <div class="postExcerpt">
-                    <p><figure><img src="/hidden_scalarmul.png">
-</figure></p>
+                    <p><h2 id="scalar-multiplication">Scalar multiplication</h2>
+<p>Let $\mathbb{G}$ be a commutative group under the addition law ($+$) and let $G
+\in \mathbb{G}$ be its generator.  The group has an order $p$. We define a
+scalar multiplication $k \cdot G$ as $\underbrace{G+&hellip;+G}_\text{$k$~times}$.</p>
+<ol>
+<li>Consider $105 \cdot G$. How many additions does it involve?</li>
+<li>Now consider the binary decomposition of $105 = 2^6 + 2^5 + 2^3 + 2^0$. It can be written as</li>
+</ol>
+<blockquote>
+<p>$105 = ((((((((((1 · 2 + 1) · 2) + 0) · 2) + 1) · 2) + 0) · 2) + 0) · 2) + 1$.
+Given that a doubling (multiplication by 2) has the same cost as an addition, how many additions $105 \cdot G$ involves?</p></p>
                 </div>
             </div>
         </a>

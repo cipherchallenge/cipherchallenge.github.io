@@ -112,13 +112,48 @@ Witness or liar? 🤥 | Cipher Challenge 2025 Cryptography Edition
             
             
                 <dt>reading time</dt>
-                <dd>0 minutes</dd>
+                <dd>2 minutes</dd>
             
         </dl>
     </section>
     
     <div>
-        <figure><img src="/hidden_primality.png">
+        <p>Primes are of great theoretical and practical value in cryptography. A
+primality test is an algorithm for determining whether an input number is
+prime or not.</p>
+<h3 id="naive-but-deterministic">Naive but deterministic</h3>
+<p>The simplest primality test is trial division: given an input number,
+$n$, check whether it is divisible by any prime number between 2 and $\sqrt{n}$. If
+so, then $n$ is composite. Otherwise, it is prime.</p>
+<blockquote>
+<p><strong>The prime number theorem</strong>: the distribution of primes is $π(n) \sim n/\log(n)$
+where $π(n)$ is the prime-counting function (the number of primes less than or
+equal to $n$) and $\log(n)$ is the natural logarithm of $n$.</p></blockquote>
+<ol>
+<li>By the prime number theorem, how many trial divisions one needs to perform?</li>
+</ol>
+<h3 id="fast-but-probabilistic">Fast but probabilistic</h3>
+<p>The basic structure of probabilistic primality tests is as follows:</p>
+<ul>
+<li>Randomly pick a number $a$.</li>
+<li>Check some equality involving $a$ and the given number $n$. If the equality fails to hold true, then $n$ is a composite number and $a$ is a witness for the compositeness, and the test stops.</li>
+<li>Get back to the step one until the required accuracy is reached.</li>
+</ul>
+<p>After one or more iterations, if $n$ is not found to be a composite number, then it can be declared probably prime.</p>
+<p>The simplest probabilistic test is based on Fermat&rsquo;s little theorem.</p>
+<blockquote>
+<p><strong>Fermat&rsquo;s little theorem</strong> states that if $n$ is prime and $a$ is not
+divisible by $n$, then $a^{n-1} = 1 \pmod n$</p></blockquote>
+<p>Given an integer $n$, choose some integer $a$ coprime to $n$ and calculate
+$a^{n-1} \pmod n$. If the result is different from 1, then $n$ is composite. If
+it is 1, then $n$ may be prime.</p>
+<ol start="2">
+<li>Given that the time complexity of modular exponentiation is roughly $\mathcal{O}(\log^2 n)$, what is the complexity of this algorithm?</li>
+<li>Apply this algorithm iteratively 3 times to determine if 17 is prime.</li>
+<li>Now consider $n=221$. Apply the algorithm with $a=38$. Is $n$ probably a prime? Now use $a=24$. What do you conclude?</li>
+<li>Now consider $n=561$. Apply the algorithm with any witness $a$ you want. What do you conclude?</li>
+</ol>
+<figure><img src="/hidden_primality.png">
 </figure>
 
 

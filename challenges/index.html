@@ -107,8 +107,25 @@ Challenges | Cipher Challenge 2025 Cryptography Edition
                     <time class="postDate" datetime="2025-03-26">March 26, 2025</time>
                 </div>
                 <div class="postExcerpt">
-                    <p><figure><img src="/misc.png">
-</figure></p>
+                    <p><h2 id="question-1">Question 1</h2>
+<p>Consider the following:</p>
+<ul>
+<li>You have a random variable $X$, which is just a number (or a set of numbers)
+that is randomly chosen. In this case, $X$ is a string of n bits (where each bit
+is either 0 or 1), and each bit is chosen completely at random.</li>
+<li>You also have another random variable $Y$, which is also an n-bit string.
+However, $Y$ doesn’t have to be random in the same way as $X$—it can follow any
+pattern. But $X$ and $Y$ are independent, meaning knowing $Y$ doesn’t tell us
+anything about $X$.</li>
+<li>Now, we define a new random variable $Z$ by taking $X$ and $Y$ and combining them
+using something called the ”bitwise XOR operation” (written as $\oplus$). XOR works
+like this for each bit:
+– If the two bits are the same (both 0 or both 1), the result is 0.
+– If the two bits are different (one is 0 and the other is 1), the result
+is 1.</li>
+</ul>
+<p>So, assuming we define $Z = X \oplus Y$, we apply this rule to each bit in the string
+separately.</p></p>
                 </div>
             </div>
         </a>
@@ -125,8 +142,48 @@ Challenges | Cipher Challenge 2025 Cryptography Edition
                     <time class="postDate" datetime="2025-03-03">March 3, 2025</time>
                 </div>
                 <div class="postExcerpt">
-                    <p><figure><img src="/hidden_karatsuba.png">
-</figure></p>
+                    <p><p>The time complexity describes the amount of computer time it takes to run an algorithm. It is estimated by counting the number of elementary operations performed by the algorithm. Since an algorithm&rsquo;s running time may vary among different inputs of the same size, one commonly considers the worst-case time. Algorithmic complexities are classified according to the type of function appearing in the big O notation. Here are some examples:</p>
+<table>
+  <thead>
+      <tr>
+          <th><em>Name</em></th>
+          <th><em>Time complexity</em></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Constant time</td>
+          <td>$\mathcal{O}(1)       $</td>
+      </tr>
+      <tr>
+          <td>Logarithmic time</td>
+          <td>$\mathcal{O}(\log n)  $</td>
+      </tr>
+      <tr>
+          <td>Linear time</td>
+          <td>$\mathcal{O}(n)       $</td>
+      </tr>
+      <tr>
+          <td>Linearithmic time</td>
+          <td>$\mathcal{O}(n \log n)$</td>
+      </tr>
+      <tr>
+          <td>Quadratic time</td>
+          <td>$\mathcal{O}(n^2)     $</td>
+      </tr>
+      <tr>
+          <td>Polynomial time</td>
+          <td>$2^{\mathcal{O}(\log n)} = poly(n)$</td>
+      </tr>
+      <tr>
+          <td>Exponential time</td>
+          <td>$2^{poly(n)}$</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="multiplication-algorithms">Multiplication algorithms</h2>
+<h3 id="schoolbook-multiplication">Schoolbook multiplication</h3>
+<p>Consider this example $102 \times 257$:</p></p>
                 </div>
             </div>
         </a>
@@ -143,8 +200,17 @@ Challenges | Cipher Challenge 2025 Cryptography Edition
                     <time class="postDate" datetime="2025-03-02">March 2, 2025</time>
                 </div>
                 <div class="postExcerpt">
-                    <p><figure><img src="/hidden_scalarmul.png">
-</figure></p>
+                    <p><h2 id="scalar-multiplication">Scalar multiplication</h2>
+<p>Let $\mathbb{G}$ be a commutative group under the addition law ($+$) and let $G
+\in \mathbb{G}$ be its generator.  The group has an order $p$. We define a
+scalar multiplication $k \cdot G$ as $\underbrace{G+&hellip;+G}_\text{$k$~times}$.</p>
+<ol>
+<li>Consider $105 \cdot G$. How many additions does it involve?</li>
+<li>Now consider the binary decomposition of $105 = 2^6 + 2^5 + 2^3 + 2^0$. It can be written as</li>
+</ol>
+<blockquote>
+<p>$105 = ((((((((((1 · 2 + 1) · 2) + 0) · 2) + 1) · 2) + 0) · 2) + 0) · 2) + 1$.
+Given that a doubling (multiplication by 2) has the same cost as an addition, how many additions $105 \cdot G$ involves?</p></p>
                 </div>
             </div>
         </a>
@@ -161,8 +227,15 @@ Challenges | Cipher Challenge 2025 Cryptography Edition
                     <time class="postDate" datetime="2025-03-01">March 1, 2025</time>
                 </div>
                 <div class="postExcerpt">
-                    <p><figure><img src="/hidden_signature.png">
-</figure></p>
+                    <p><p>Let $\mathbb{G}$ be a commutative group under the addition law ($+$) and let $G
+\in \mathbb{G}$ be its generator.  The group has an order $p$. We define a
+scalar multiplication $k \cdot G$ as $\underbrace{G+&hellip;+G}_\text{$k$~times}$.</p>
+<p>Now assume that given an element $Q \in \mathbb{G}$ it is computationally
+unfeasible to find $k$ such that $Q = k \cdot G$. We have seen in a different
+challenge that it is easy to go from $G$ to $k \cdot G$ but now we are assuming
+that it is hard to go from $k \cdot G$ to $G$. This is called a one-way
+function. In this challenge, we will build a signature scheme and an encryption
+scheme based on this function.</p></p>
                 </div>
             </div>
         </a>
@@ -179,8 +252,17 @@ Challenges | Cipher Challenge 2025 Cryptography Edition
                     <time class="postDate" datetime="2025-02-28">February 28, 2025</time>
                 </div>
                 <div class="postExcerpt">
-                    <p><figure><img src="/hidden_primality.png">
-</figure></p>
+                    <p><p>Primes are of great theoretical and practical value in cryptography. A
+primality test is an algorithm for determining whether an input number is
+prime or not.</p>
+<h3 id="naive-but-deterministic">Naive but deterministic</h3>
+<p>The simplest primality test is trial division: given an input number,
+$n$, check whether it is divisible by any prime number between 2 and $\sqrt{n}$. If
+so, then $n$ is composite. Otherwise, it is prime.</p>
+<blockquote>
+<p><strong>The prime number theorem</strong>: the distribution of primes is $π(n) \sim n/\log(n)$
+where $π(n)$ is the prime-counting function (the number of primes less than or
+equal to $n$) and $\log(n)$ is the natural logarithm of $n$.</p></p>
                 </div>
             </div>
         </a>
@@ -197,8 +279,38 @@ Challenges | Cipher Challenge 2025 Cryptography Edition
                     <time class="postDate" datetime="2025-02-27">February 27, 2025</time>
                 </div>
                 <div class="postExcerpt">
-                    <p><figure><img src="/hidden_interpolation.png">
-</figure></p>
+                    <p><p>Polynomials are functions of the form:
+$$ f(x) = a_0 + a_1 x + \dots + a_n x_n $$
+where $n$ is any non-negative integer and $a_0,\dots,a_n$ any fixed numbers
+with $a_n \ne 0$. We call:</p>
+<ul>
+<li>$n$ the polynomial degree,</li>
+<li>$a_0,\dots,a_n$ the polynomial coefficients and</li>
+<li>$a_0$ the polynomial constant term.</li>
+</ul>
+<h2 id="polynomial-interpolation">Polynomial Interpolation</h2>
+<ol>
+<li>Suppose that $f(x)$ is a polynomial of degree 2, i.e. of the form $f(x) =
+a_0 + a_1 x + a_2 x^2$. Let $f(1)=2$, $f(2)=5$, and $f(4)=2$. Find $f(x)$.</li>
+<li>Can you quickly write down a non-zero polynomial that vanishes at 1, 3 and 100?</li>
+<li>Same problem as before, but now with the two extra conditions: $f$ must have
+degree $\leq 3$ and also $f(50)=1$.</li>
+<li>Same problem as before, but now with the following conditions: $f$ must have
+degree $\leq 3$, $f(50)=1$ and $f(4)=3$.</li>
+<li>Now suppose that we have $n+1$ points $(x_0,y_0), (x_1,y_1), \dots,
+(x_n,y_n)$ such that $f(x_i)=y_i$ for $0 \leq i \leq n$. Can you generalize
+the above approach to find $f(x)$?</li>
+</ol>
+<h2 id="secret-sharing">Secret Sharing</h2>
+<p>Raibi Jamila, often referred to simply as &ldquo;Raibi,&rdquo; is a beloved yogurt-based
+drink that has become a staple in Moroccan culture. Many have tried to
+replicate the drink, but none have succeeded in capturing its unique flavor.
+The secret recipe for Raibi is known only to a few select individuals, who have
+sworn to keep it a secret. To prevent these individuals from sharing the secret
+and to ensure it is never lost, we are going to construct a scheme that allows
+the secret to be shared among a group of people in such a way that the secret
+cannot be revealed unless a minimum number of the group&rsquo;s members act together
+to pool their knowledge.</p></p>
                 </div>
             </div>
         </a>
@@ -215,7 +327,11 @@ Challenges | Cipher Challenge 2025 Cryptography Edition
                     <time class="postDate" datetime="2025-02-27">February 27, 2025</time>
                 </div>
                 <div class="postExcerpt">
-                    <p><figure><img src="/hidden_steganography.png">
+                    <p><ol>
+<li>Answers to all the challenges are hidden in the corresponding images. If you reverse-engineer the code in <a href="https://github.com/cipherchallenge/steganography">https://github.com/cipherchallenge/steganography</a> you&rsquo;ll find them!</li>
+</ol>
+<p><em>Hint: the space is full of pixels and a pixel does not need all the bits! Some are less significant</em> 😉</p>
+<figure><img src="/hidden_steganography.png">
 </figure></p>
                 </div>
             </div>

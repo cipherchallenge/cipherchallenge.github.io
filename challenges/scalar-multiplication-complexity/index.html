@@ -112,13 +112,31 @@ One step at a time! 🪜 | Cipher Challenge 2025 Cryptography Edition
             
             
                 <dt>reading time</dt>
-                <dd>0 minutes</dd>
+                <dd>2 minutes</dd>
             
         </dl>
     </section>
     
     <div>
-        <figure><img src="/hidden_scalarmul.png">
+        <h2 id="scalar-multiplication">Scalar multiplication</h2>
+<p>Let $\mathbb{G}$ be a commutative group under the addition law ($+$) and let $G
+\in \mathbb{G}$ be its generator.  The group has an order $p$. We define a
+scalar multiplication $k \cdot G$ as $\underbrace{G+&hellip;+G}_\text{$k$~times}$.</p>
+<ol>
+<li>Consider $105 \cdot G$. How many additions does it involve?</li>
+<li>Now consider the binary decomposition of $105 = 2^6 + 2^5 + 2^3 + 2^0$. It can be written as</li>
+</ol>
+<blockquote>
+<p>$105 = ((((((((((1 · 2 + 1) · 2) + 0) · 2) + 1) · 2) + 0) · 2) + 0) · 2) + 1$.
+Given that a doubling (multiplication by 2) has the same cost as an addition, how many additions $105 \cdot G$ involves?</p></blockquote>
+<ol start="3">
+<li>What is the complexity of the naive algorithm?</li>
+<li>Let $n$ be the number of bits in $k$. We can write $k = k_0 + 2 k_1 + 2^2 k_2 + &hellip; + 2^{n-1} k_{n-1}$ where $k_i \in \{0,1\}$. Can you derive an algorithm for computing $k \cdot G$ in less than $k-1$ additions?</li>
+<li>Assuming that on average half of the $k_i$&rsquo;s are 1, how many additions do you need? What is the complexity of your algorithm?</li>
+<li>We want now to compute $k \cdot G_1 + k&rsquo; \cdot G_2$ where $G_1, G_2 \in \mathbb{G}$. The obvious solution would be to compute $k \cdot G_1$ and $k&rsquo; \cdot G_2$ separately and add them. Can you do better?</li>
+</ol>
+<p><em>Hint: start an accumulator with $G_1+G_2$ and scan $k$ and $k&rsquo;$ bits simultaneously</em>.</p>
+<figure><img src="/scalar_mul.jpg">
 </figure>
 
 

@@ -92,8 +92,25 @@ Error Propagation | Cipher Challenge 2025 Cryptography Edition
                     <time class="postDate" datetime="2025-03-26">March 26, 2025</time>
                 </div>
                 <div class="postExcerpt">
-                    <p><figure><img src="/misc.png">
-</figure></p>
+                    <p><h2 id="question-1">Question 1</h2>
+<p>Consider the following:</p>
+<ul>
+<li>You have a random variable $X$, which is just a number (or a set of numbers)
+that is randomly chosen. In this case, $X$ is a string of n bits (where each bit
+is either 0 or 1), and each bit is chosen completely at random.</li>
+<li>You also have another random variable $Y$, which is also an n-bit string.
+However, $Y$ doesn’t have to be random in the same way as $X$—it can follow any
+pattern. But $X$ and $Y$ are independent, meaning knowing $Y$ doesn’t tell us
+anything about $X$.</li>
+<li>Now, we define a new random variable $Z$ by taking $X$ and $Y$ and combining them
+using something called the ”bitwise XOR operation” (written as $\oplus$). XOR works
+like this for each bit:
+– If the two bits are the same (both 0 or both 1), the result is 0.
+– If the two bits are different (one is 0 and the other is 1), the result
+is 1.</li>
+</ul>
+<p>So, assuming we define $Z = X \oplus Y$, we apply this rule to each bit in the string
+separately.</p></p>
                 </div>
             </div>
         </a>

@@ -111,13 +111,46 @@ Careful with randomness! 🚨 | Cipher Challenge 2025 Cryptography Edition
             
             
                 <dt>reading time</dt>
-                <dd>0 minutes</dd>
+                <dd>2 minutes</dd>
             
         </dl>
     </section>
     
     <div>
-        <figure><img src="/hidden_signature.png">
+        <p>Let $\mathbb{G}$ be a commutative group under the addition law ($+$) and let $G
+\in \mathbb{G}$ be its generator.  The group has an order $p$. We define a
+scalar multiplication $k \cdot G$ as $\underbrace{G+&hellip;+G}_\text{$k$~times}$.</p>
+<p>Now assume that given an element $Q \in \mathbb{G}$ it is computationally
+unfeasible to find $k$ such that $Q = k \cdot G$. We have seen in a different
+challenge that it is easy to go from $G$ to $k \cdot G$ but now we are assuming
+that it is hard to go from $k \cdot G$ to $G$. This is called a one-way
+function. In this challenge, we will build a signature scheme and an encryption
+scheme based on this function.</p>
+<h2 id="a-signature-scheme">A signature scheme</h2>
+<p>Let Mustapha be the signer. He holds a secret signing key $k$ and publishes a
+public key $Q=k \cdot G$. To sign a message $m$, he computes $s = k  \cdot  m
+\pmod p$ and sends $(m,s)$ as the signature.</p>
+<ol>
+<li>How can you verify this signature $(m,s)$ knowing just Mustapha&rsquo;s public key $Q$?</li>
+<li>How would you proceed if you want to find Mustapha&rsquo;s secret key $k$?</li>
+</ol>
+<p>Now Mustapha chooses a random number $0 &lt; r &lt; p$ and computes $R=r \cdot G$. Then he computes $s = r + k  \cdot  m \pmod p$ and sends $(m, s, R)$ as the new signature.</p>
+<ol start="3">
+<li>How can you verify the signature now?</li>
+<li>Can you recover Mustapha&rsquo;s secret key now?</li>
+</ol>
+<p>Now Mustapha signs a different message $m&rsquo;$ with the same random $r$. The signature is $(m&rsquo;, s&rsquo;, R)$.</p>
+<ol start="5">
+<li>Can you recover Mustapha&rsquo;s secret key now? What if Mustapha uses a different random $r&rsquo;$?</li>
+</ol>
+<h2 id="an-encryption-scheme">An encryption scheme</h2>
+<p>Now we want to turn this signature scheme into an encryption scheme.
+Mustapha chooses a random number $0 &lt; r &lt; p$ and computes $R=r \cdot G$. To encrypt a message $M$ for Youssef, he computes $C = M + r \cdot Q_y$ where $Q_y$ is Youssef&rsquo;s public key ($k_y \cdot G$ with $k_y$ being Youssef&rsquo;s secret key). The encrypted version of $M$ is $(C,R)$.</p>
+<ol start="6">
+<li>How does Youssef decrypt the message $M$? Why is it unfeasible for anyone else to decrypt it?</li>
+<li>Can you spot any efficiency issues with this encryption scheme?</li>
+</ol>
+<figure><img src="/hidden_signature.png">
 </figure>
 
 

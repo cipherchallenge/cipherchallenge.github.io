@@ -111,13 +111,99 @@ Miscellaneous 🧮 | Cipher Challenge 2025 Cryptography Edition
             
             
                 <dt>reading time</dt>
-                <dd>0 minutes</dd>
+                <dd>5 minutes</dd>
             
         </dl>
     </section>
     
     <div>
-        <figure><img src="/misc.png">
+        <h2 id="question-1">Question 1</h2>
+<p>Consider the following:</p>
+<ul>
+<li>You have a random variable $X$, which is just a number (or a set of numbers)
+that is randomly chosen. In this case, $X$ is a string of n bits (where each bit
+is either 0 or 1), and each bit is chosen completely at random.</li>
+<li>You also have another random variable $Y$, which is also an n-bit string.
+However, $Y$ doesn’t have to be random in the same way as $X$—it can follow any
+pattern. But $X$ and $Y$ are independent, meaning knowing $Y$ doesn’t tell us
+anything about $X$.</li>
+<li>Now, we define a new random variable $Z$ by taking $X$ and $Y$ and combining them
+using something called the ”bitwise XOR operation” (written as $\oplus$). XOR works
+like this for each bit:
+– If the two bits are the same (both 0 or both 1), the result is 0.
+– If the two bits are different (one is 0 and the other is 1), the result
+is 1.</li>
+</ul>
+<p>So, assuming we define $Z = X \oplus Y$, we apply this rule to each bit in the string
+separately.</p>
+<p>The question is: What is the probability that every bit in $Z$ is $0$? (In other
+words, what is the chance that $Z$ equals $0^n$ ?)</p>
+<h2 id="question-2">Question 2</h2>
+<p>Imagine you want to send a long message to your friend. To keep it safe, you
+lock the message using a special method that protects it from being easily read
+by others. This method organizes the message into 100 small parts and then
+locks them one by one in a way that each locked part depends on the one before
+it.  Now, you have sent the locked message to your friend over the internet.
+However, something goes wrong during transmission—one of the middle parts (the
+50th part) gets damaged or changed because of a network issue.  When your
+friend gets the message and unlocks it, how many parts of the original message
+will be affected by this error?</p>
+<h2 id="question-3">Question 3</h2>
+<p>Consider the following functions as $n \rightarrow \infty$:
+$$ 2^{-\sqrt{n}},~ n^{-\log n},~ e^{-n},~ n^{-2},~ 2^{-n}$$
+Which of the following functions approaches to zero more quickly? Arrange the functions in order, from the fastest to the slowest.</p>
+<h2 id="question-4">Question 4</h2>
+<p>Suppose you and your friend live in Morocco with 50 different regions. You are
+currently in region $a \in \{1, \dots ,50\}$ and your friend is in region $b \in
+\{1, \dots ,50\}$. You can both communicate with one another. However, you want
+to test if you are currently in the same region as your friend. If you are both
+in the same region, you should learn that fact, and otherwise, you should learn
+nothing else about your friend&rsquo;s location. Your friend should also learn
+nothing about your location.  You both agree on the following scheme:</p>
+<p>You both agree on the following scheme:</p>
+<ul>
+<li>Choose a common number $g$ that is fixed for both of you.</li>
+<li>You choose two random number $x$ and $y$ for yourself then send the following to your friend:
+$$(A0, A1, A2) = (g^x, g^y, g^{xy+a}).$$</li>
+<li>Your friend chooses two random numbers r and s and sends back to you the following:
+$$(B1, B2) = (A_1^r g^s, \left(\frac{A_2}{g^b}\right)^r A_0^s).$$</li>
+</ul>
+<p>What should you do to test if you and your friend are in the same region (i.e.,
+to test if $a = b$)?</p>
+<h2 id="question-5">Question 5</h2>
+<p>&ldquo;Bitwise XOR operation&rdquo; (written as $\oplus$). XOR works as follows:</p>
+<ul>
+<li>If the two bits are the same (both 0 or both 1), the result is 0.</li>
+<li>If the two bits are different (one is 0 and the other is 1), the result is 1.</li>
+</ul>
+<p>A bank wishes to split the key $k$ of a vault into two pieces $p_1$ and $p_2$
+so that both are needed when unlocking the vault. The piece $p_1$ can be given
+to one manager and $p_2$ to another so that both managers must be present to
+unlock the vault.  The bank tries a mathematical approach by generating random
+$k_1$ and sets $k_1&rsquo; \leftarrow k \oplus k_1$.  Note that $k_1 ⊕ k_1′ = k$. The
+bank can then give $k_1$ to one manager and $k_1′$ to another manager. by doing
+the above, note that both managers must be present to unlock the vault since,
+by itself, each piece contains no information about the original key $k$.</p>
+<p>Now, suppose the bank wants to split $k$ into three pieces $p_1$, $p_2$, $p_3$
+so that any two of the pieces are able to unlock the vault using $k$. This
+approach is to ensure that even if one manager is out sick, the vault can still
+be unlocked by the other two managers. To do so, the bank generates two random
+pairs $(k_1, k_1′)$ and $(k_2, k_2′)$ as in the previous paragraph so that $k_1
+\oplus k_1′ = k$ and $k_2 \oplus k_2′ = k$.</p>
+<p>How should the bank assign pieces ($p_1$, $p_2$, $p_3$) so that any two pieces
+can unlock the vault, but no single piece should unlock the vault?</p>
+<h2 id="question-6">Question 6</h2>
+<p>A hash function is a function $H: M \rightarrow T$ that takes an input from a
+large set $M$ and maps it to a smaller set $T$, typically in a way that appears
+random. Because $|M| ≫ |T|$, multiple inputs can have the same output, which
+leads to collisions (i.e., distinct $x, y \in M$ such that $H(x) = H(y)$). It
+is known that finding such a collision requires approximately $\mathcal{O}(|T|^{1/2}$)
+random samples.</p>
+<ol>
+<li>How many random samples are needed to find a three-way collision, i.e.,
+distinct $x, y, z \in M$ such that $H(x) = H(y) = H(z)$?</li>
+</ol>
+<figure><img src="/misc.png">
 </figure>
 
 
